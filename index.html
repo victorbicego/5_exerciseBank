@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Victor Bank</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/668fcd700e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="nav">
+      <h1>Victor Bank</h1>
+      <h3>Login:</h3>
+      <input class="name" type="text" placeholder="User" />
+      <input class="password" type="password" placeholder="Password" />
+      <button class="log-button">
+        <i class="fas fa-chevron-circle-right"></i>
+      </button>
+    </div>
+
+    <div class="main">
+      <h2 class="greeting">Hello. Please login to continue!</h2>
+      <p class="balance_wallet"></p>
+      <p class="balance_savings"></p>
+    </div>
+
+    <div class="operations">
+      <div class="operations-1">
+        <p>Deposit</p>
+        <input class="deposit" type="number" placeholder="How much?" />
+        <button class="dp-button">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+
+      <div class="operations-2">
+        <p>Withdraw</p>
+        <input class="withdraw" type="number" placeholder="How much?" />
+        <button class="wi-button">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+
+      <div class="operations-3">
+        <p>Send money to Savings</p>
+        <input class="savings" type="number" placeholder="How much?" />
+        <button class="sa-button">
+          <i class="fas fa-chevron-circle-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="no-founds">
+      <p>Sorry you don't have this valeu in your Wallet.</p>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
